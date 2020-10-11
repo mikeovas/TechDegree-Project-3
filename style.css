@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+    html {font-size: 18px;}
+
+    body {
+        margin: 0 auto;
+        max-width: 768px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        background:  #d3e7f1;
+        color: #354;
+    }
+
+    input {
+        border: 1px solid rgb(19, 7, 121);
+    }
+  
+    #email {
+        width: 100%;
+    }
+    
+    .banner {
+        text-align: center;
+        text-transform: uppercase;
+        background: #111;
+        color: #f9f4f0;
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .signup {
+        text-align: center;
+        padding-top: 1em;
+        border-bottom: 2px solid #111 ;
+     }
+
+    .signup p {
+        padding-bottom: 1.5em;
+        border-bottom: 4px solid #111 ;
+    }
+
+    label {
+        margin-bottom: 10px;
+        font-weight: 400;
+
+    }
+
+    .contact-info {
+        padding: 50px;
+    }
+      
+    .contact-info .flex-pair {
+        display: flex;
+        flex-direction: column;
+    }
+      
+      .contact-info label {
+        margin-bottom: 10px;
+    }
+      
+    .contact-info input {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+
+/* textarea {
+    height: 100px;
+}
+button {
+    width: 100%;
+    max-width: 430px;
+    padding: 12px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 1.5rem auto 2.5rem;
+    display: block;
+    cursor: pointer;
+} */
