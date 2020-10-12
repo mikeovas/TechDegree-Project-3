@@ -7,7 +7,7 @@
     body {
         margin: 0 auto;
         max-width: 768px;
-        font-family: 'Roboto', sans-serif;
+        /* font-family: 'Roboto', sans-serif; */
         font-weight: 400;
         background:  #d3e7f1;
         color: #354;
@@ -43,8 +43,17 @@
 
     .contact-info {
         padding: 50px;
+      }
+
+   fieldset {
+       border: none;
+   }
+
+    input[placeholder="Required"] {
+        font-style: italic;
+        text-align: right;
     }
-      
+
    .flex-pair {
         display: flex;
         flex-direction: column;
