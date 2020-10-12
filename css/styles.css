@@ -16,11 +16,7 @@
     h1 {
         font-size: 1.2em;
     }    
-    input, 
-    select {
-        border: 1px solid rgb(19, 7, 121);
-    }
-  
+ 
     .banner {
         text-align: center;
         text-transform: uppercase;
@@ -37,8 +33,14 @@
 
     .signup p {
         padding-bottom: 1.5em;
-        border-bottom: 5px double #111 ;
-    }
+        border-bottom: 4px solid #111 ;
+        margin-bottom: 0;
+       }
+
+    hr {
+        border-top: 2px solid #111 ;
+        margin-top: 3px;
+       }
 
     label {
         margin-bottom: 10px;
