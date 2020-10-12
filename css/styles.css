@@ -7,7 +7,7 @@
     body {
         margin: 0 auto;
         max-width: 768px;
-        /* font-family: 'Roboto', sans-serif; */
+        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         background:  #d3e7f1;
         color: #354;
@@ -49,10 +49,11 @@
        border: none;
    }
 
-    input[placeholder="Required"] {
+    input[placeholder="Required "] {
         font-style: italic;
         text-align: right;
-    }
+        font-size: 0.9em;
+     }
 
    .flex-pair {
         display: flex;
