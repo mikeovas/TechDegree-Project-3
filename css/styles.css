@@ -49,10 +49,12 @@
 
     .contact-info {
         padding: 50px;
-      }
+    }
 
     .contact-info legend {
         padding-top: 20px;
+        font-size: 1.4em;
+        font-weight: 700;
     }  
 
    fieldset {
@@ -78,8 +80,4 @@
     select {
         height: 50px;
         margin-bottom: 15px;
-    }
-
-    .contact-info legend {
-        font-weight: 700;
     }
