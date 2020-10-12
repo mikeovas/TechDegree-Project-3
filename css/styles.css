@@ -13,7 +13,11 @@
         color: #354;
     }
 
-    input {
+    h1 {
+        font-size: 1.2em;
+    }    
+    input, 
+    select {
         border: 1px solid rgb(19, 7, 121);
     }
   
@@ -45,22 +49,31 @@
         padding: 50px;
       }
 
+    .contact-info legend {
+        padding-top: 20px;
+    }  
+
    fieldset {
        border: none;
    }
 
-    input[placeholder="Required "] {
+    input[placeholder="Required  "] {
         font-style: italic;
         text-align: right;
         font-size: 0.9em;
      }
+
+    #zip {
+        width: 33.33%;
+    } 
 
    .flex-pair {
         display: flex;
         flex-direction: column;
     }
       
-    .contact-info input {
+    .contact-info input, 
+    select {
         height: 50px;
         margin-bottom: 15px;
     }
