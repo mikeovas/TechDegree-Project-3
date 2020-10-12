@@ -49,10 +49,10 @@
        border: none;
    }
 
-    /* input[required] {
+    input[placeholder="Required"] {
         font-style: italic;
         text-align: right;
-    } */
+    }
 
    .flex-pair {
         display: flex;
