@@ -42,12 +42,12 @@
     .signup p {
         padding-bottom: 2em;
         border-bottom: 4px solid #111 ;
-        margin-bottom: 1px;
+        margin-bottom: 2px;
        }
 
     hr {
         border-top: 2px solid #111 ;
-        margin-top: 3px;
+        margin-top: 4px;
        }
 
     .flex-pair {
@@ -115,6 +115,17 @@
 
     @media (min-width: 768px) {
 
+        .registration,
+        hr, 
+        .signup p {
+            width: 75%;
+            margin: auto;
+        }
+
+        .signup p {
+            margin-bottom: 2px;
+           }
+    
         .flex-pair {
             display: flex;
             flex-direction: row;
