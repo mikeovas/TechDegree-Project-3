@@ -122,7 +122,53 @@
                     <hr>    
             </fieldset>
 
-        </form>            
+            <fieldset class="newsletter">
+
+            <div class="choice-info">
+                    <h2>Newsletter</h2>
+                    <p>Select the newsletters you would like to receive</p>
+            </div>
+                
+            <fieldset class="choices">
+                <input type="checkbox" id="html-news" name="user_newsletter-html" value="html-news">
+                <label for="html-news">HTML News</label>
+                <br>
+
+                <input type="checkbox" id="css-news" name="user_newsletter-css" value="css-news">
+                <label for="css-news">CSS News</label>
+                <br>
+
+                <input type="checkbox" id="js-news" name="user_newsletter-js" value="js-news">
+                <label for="js-news">Javascript News</label>
+            </fieldset>
+            
+            <fieldset class="format">
+                <h4>Newsletter Format</h4>
+
+                <input type="radio" id="html-format" name="user_format" value="html_format">
+                <label for="html-format">HTML</label>
+                <br>
+
+                <input type="radio" id="plain_text-format" name="user_format" value="plain_text_format">
+                <label for="plain_text-format">Plain Text</label>
+            </fieldset>
+
+            <fieldset class="topics">
+                <label for="other_topics">Other topics you would like to hear about</label>
+                <br>
+                <textarea id="other_topics" name="user-other-topics"></textarea>
+
+            </fieldset>
+
+            <button type="submit"> Sign Up</button>  
+
+            </form>            
     </main>
+
+    <footer>
+        <p class="copyright">Copyright The Code Review</p>
+    </footer>
+
+
 </body>
 </html>
