@@ -39,23 +39,27 @@
         padding-top: 0.5em;
      }
 
-    .signup p {
-        padding-bottom: 2em;
-        border-bottom: 4px solid #111 ;
-        margin-bottom: 2px;
-       }
+
+    .signup p:after { 
+        content: ""; 
+        display: block; 
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 30px;
+        border-bottom: 4px solid black;
+    }
 
     hr {
-        border-top: 2px solid #111 ;
-        margin-top: 4px;
-       }
+        height: 1px;
+        background-color: black;
+    }
 
     .flex-pair {
         display: flex;
         flex-direction: column;
     }
 
-    .contact-info legend {
+    legend {
         padding-top: 15px;
         font-size: 1.4em;
         font-weight: 700;
@@ -115,16 +119,17 @@
 
     @media (min-width: 768px) {
 
-        .registration,
-        .signup p {
+        .registration {
             width: 80%;
             margin: auto;
         }
 
-        /* .signup p {
-            margin-bottom: 2px;
-           } */
-    
+        .signup p:after,
+        hr {
+            width: 70%;
+        }
+
+
         .flex-pair {
             display: flex;
             flex-direction: row;
