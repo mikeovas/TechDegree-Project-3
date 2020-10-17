@@ -65,7 +65,8 @@
     }  
 
     .contact-info input, 
-    select {
+    select, 
+    textarea {
         height: 50px;
         margin-bottom: 15px;
         width: 100%;
