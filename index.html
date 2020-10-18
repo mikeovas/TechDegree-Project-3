@@ -31,6 +31,8 @@
         
         <form class="registration" action="index.html" method="post">
 
+            <!-- Contact Information -->
+
             <fieldset class="contact-info">
 
                 <legend>Contact Information</legend>
@@ -124,39 +126,46 @@
                     </div>
 
             </fieldset>
-                               
+
+            <!-- Newsletter -->
+
             <fieldset class="choices">
                 <legend>Newsletter</legend>
                 
-                <p>Select the newsletters you would like to receive</p>
+                    <p>Select the newsletters you would like to receive</p>
     
-                <input type="checkbox" id="html-news" name="user_newsletter" value="html-news">
-                <label for="html-news">HTML News</label>
-                <br>
+                    <input type="checkbox" id="html-news" name="user_newsletter" value="html-news">
+                    <label for="html-news">HTML News</label>
+                    <br>
 
-                <input type="checkbox" id="css-news" name="user_newsletter" value="css-news">
-                <label for="css-news">CSS News</label>
-                <br>
+                    <input type="checkbox" id="css-news" name="user_newsletter" value="css-news">
+                    <label for="css-news">CSS News</label>
+                    <br>
 
-                <input type="checkbox" id="js-news" name="user_newsletter" value="js-news">
-                <label for="js-news">Javascript News</label>
-            </fieldset>
-            
-            <fieldset class="format">
-                <h4>Newsletter Format</h4>
+                    <input type="checkbox" id="js-news" name="user_newsletter" value="js-news">
+                    <label for="js-news">Javascript News</label>
 
-                <input type="radio" id="html-format" name="user_format" value="html_format">
-                <label for="html-format">HTML</label>
-                <br>
+                <!-- Newsletter Format    -->
 
-                <input type="radio" id="plain_text-format" name="user_format" value="plain_text_format">
-                <label for="plain_text-format">Plain Text</label>
-            </fieldset>
+                <div class="format">
+                    <h4>Newsletter Format</h4>
 
-            <fieldset class="topics">
-                <label for="other_topics">Other topics you would like to hear about</label>
-                <br>
-                <textarea id="other_topics" name="user-other-topics"></textarea>
+                        <input type="radio" id="html-format" name="user_format" value="html_format">
+                        <label for="html-format">HTML</label>
+                        <br>
+
+                        <input type="radio" id="plain_text-format" name="user_format" value="plain_text_format">
+                        <label for="plain_text-format">Plain Text</label>
+                </div>
+
+                <!-- Other Topics -->
+
+                <div class="topics">
+                    <label for="other_topics">Other topics you would like to hear about</label>
+                    <br>
+                    <textarea id="other_topics" name="user-other-topics"></textarea>
+                </div>
+
             </fieldset>
 
             <button type="submit"> Sign Up</button>  
