@@ -27,8 +27,8 @@
     .banner {
         text-align: center;
         text-transform: uppercase;
-        background: #111;
-        color: #f9f4f0;
+        background: rgb(36, 35, 35);
+        color: rgb(248, 248, 242);
         max-width: 100%;
         padding: 0.5rem;
     }
@@ -113,7 +113,8 @@
         background: rgb(44, 156, 128);
         width: 100%;
         padding: 12px 0;
-        border-radius: 8px;
+        margin: auto;
+        border-radius: 6px;
         cursor: pointer;
     }
 
