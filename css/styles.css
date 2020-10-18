@@ -86,10 +86,11 @@
         min-height: 100px;
    }
 
-    input[placeholder="Required  "] {
+    input[placeholder="Required "], 
+    input[placeholder="(123)456-7890 "] {
         font-style: italic;
         text-align: right;
-        font-size: 0.9em;
+        font-size: 0.8em;
      }
 
      input::placeholder {
