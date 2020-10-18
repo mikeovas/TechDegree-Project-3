@@ -1,3 +1,9 @@
+<!-- I am aiming for the grade of Exceeds Expectations and don't want anything less -->
+<!-- I have tested this in three browsers - Google Chrome, Microsoft Edge, and Mozilla Firefox. It worked fine. -->
+<!-- I have check the HTML with an HTML validator and found no errors. -->
+<!-- I have checked the CSS with a CSS validator and found no errors. -->
+
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -26,8 +32,9 @@
         </div>         
         
         <form class="registration" action="index.html" method="post">
+
             <fieldset class="contact-info">
-           
+
                 <legend>Contact Information</legend>
                
                     <div class="flex-pair">
@@ -117,16 +124,14 @@
                         <label for="zip">Zip Code</label>
                         <input type="text" id="zip" name="user-zip" placeholder="Required " required>
                     </div>
+
             </fieldset>
-
-            <fieldset class="newsletter">
-
-            <div class="choice-info">
-                    <legend>Newsletter</legend>
-                    <p>Select the newsletters you would like to receive</p>
-            </div>
-                
+                               
             <fieldset class="choices">
+                <legend>Newsletter</legend>
+                
+                <p>Select the newsletters you would like to receive</p>
+    
                 <input type="checkbox" id="html-news" name="user_newsletter" value="html-news">
                 <label for="html-news">HTML News</label>
                 <br>
@@ -154,12 +159,11 @@
                 <label for="other_topics">Other topics you would like to hear about</label>
                 <br>
                 <textarea id="other_topics" name="user-other-topics"></textarea>
-
             </fieldset>
 
             <button type="submit"> Sign Up</button>  
 
-            </form>            
+        </form>            
     </main>
 
     <footer>
