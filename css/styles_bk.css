@@ -36,18 +36,21 @@
     .signup {
         text-align: center;
         padding-top: 0.5em;
-        padding-bottom: 0.5em;
+     }
+
+    .signup p:after { 
+        content: ""; 
+        display: block; 
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 30px;
         border-bottom: 4px solid black;
-        margin-bottom: 3px;
     }
 
-    .registration {
-        border-top: 2px solid black;
-    } 
-
-    .newsletter {
-        border-top: 2px solid black;
-    } 
+    hr {
+        height: 1px;
+        background-color: black;
+    }
 
     .flex-pair {
         display: flex;
@@ -76,6 +79,8 @@
         background: rgb(230, 230, 241);
     }
 
+
+
    fieldset {
         border: none;
    }
@@ -98,6 +103,7 @@
      input::placeholder {
          text-align: right;
      }
+
 
     #zip {
         width: 33.33%;
@@ -127,14 +133,15 @@
     @media (min-width: 768px) {
 
         .registration {
-           margin: auto;
-           width: 70%;
+            width: 80%;
+            margin: auto;
         }
 
-        .signup {
+        .signup p:after,
+        hr {
             width: 70%;
-            margin: auto auto 2px;
         }
+
 
         .flex-pair {
             display: flex;
