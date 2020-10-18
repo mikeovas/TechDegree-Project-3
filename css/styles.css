@@ -129,13 +129,11 @@
         .registration {
            margin: auto;
            width: 70%;
-           border-width: 70%;
         }
 
         .signup {
             width: 70%;
-             margin: auto auto 2px;
-             border-width: 70%;
+            margin: auto auto 2px;
         }
 
         .flex-pair {
